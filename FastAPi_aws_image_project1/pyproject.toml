@@ -1,0 +1,14 @@
+[project]
+name = "fastapi-aws-image-project1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi==0.133.0",
+    "uvicorn[standard]==0.41.0",
+    "boto3==1.42.56",
+    "python-dotenv==1.2.1",
+    "sqlalchemy==2.0.47",
+    "python-multipart==0.0.22",
+]
